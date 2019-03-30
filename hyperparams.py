@@ -26,5 +26,5 @@ save_step = 2000
 cleaners='english_cleaners'
 
 data_path = '/kaggle/data'
-output_path = 'kaggle/working/result'
-checkpoint_path = 'kaggle/working/model_new'
+output_path = '/kaggle/working/result'
+checkpoint_path = '/kaggle/working/model_new'
