@@ -1,10 +1,30 @@
+data.py
+A
+Type
+Texte
+Taille
+6 Ko (5 856 octets)
+Espace de stockage utilisé
+6 Ko (5 856 octets)
+Emplacement
+tacotron_pytorch
+Propriétaire
+moi
+Modifié
+le 26 févr. 2019 par moi
+Ouvert
+le 21:56 par moi
+Créé
+26 févr. 2019 avec Google Drive Web
+Ajouter une description
+Les lecteurs peuvent télécharger
 import hyperparams as hp
 import pandas as pd
 from torch.utils.data import Dataset, DataLoader
 import os
 import librosa
 import numpy as np
-from Tacotron.text import text_to_sequence
+from text.__init__ import text_to_sequence
 import collections
 from scipy import signal
 
