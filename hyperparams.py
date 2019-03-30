@@ -25,6 +25,6 @@ save_step = 2000
 
 cleaners='english_cleaners'
 
-data_path = '/kaggle/input/datadd1/data/data/private/voice/LJSpeech-1.0'
-output_path = './result'
-checkpoint_path = './model_new'
+data_path = '/kaggle/data'
+output_path = 'kaggle/working/result'
+checkpoint_path = 'kaggle/working/model_new'
